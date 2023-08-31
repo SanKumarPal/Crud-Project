@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon"  href="images.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name"> 
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"> 
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone"> 
+                    </div>
+                    <div class="btn" id="bt">
+                        <input type="submit" value="Submit" id="l">
+                        <input type="reset" value="Reset" id="o">
+                        
+                    </div>
+                </form>
+
+                <td>
+                    <table class="th" id="ki">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script src="ok.js"></script>
+</body>
+</html>

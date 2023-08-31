@@ -1,0 +1,47 @@
+body{
+    background-image: url(images.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(120, 120, 120);
+}
+table.h{
+    text-align: center;
+    width: 100%;
+}
+td{
+    text-align: left;
+    padding: 8px 15px;
+    border: 1px solid rgb(233, 233, 231);
+}
+tr:nth-child(even), table.h thread> tr{
+background-color: rgb(120,123,12);
+}
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border-radius: 30px;
+}
+#l:hover{
+    background: #4b99d8;
+}
+#o:hover{
+    background: #4b99d8;
+}
